@@ -1,0 +1,61 @@
+{
+  "name": "Task1",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.Excel.Activities": "[2020.1.0]",
+    "UiPath.Excel.Activities": "[2.9.1-preview]",
+    "UiPath.GoogleVision.Activities": "[1.1.2]",
+    "UiPath.GSuite.Activities": "[1.6.0]",
+    "UiPath.Mail.Activities": "[1.9.1-preview]",
+    "UiPath.OCR.Activities": "[2.3.0-preview]",
+    "UiPath.PDF.Activities": "[3.2.2]",
+    "UiPath.System.Activities": "[20.8.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.10.2-preview]",
+    "UiPath.Word.Activities": "[1.5.3-beta.1159735]",
+    "UiPathTeam.PDF.Extensions.Activities": "[2.4.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.8.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5d6e8f59-a925-47d6-8cda-6b99718bc45e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
